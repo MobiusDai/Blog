@@ -17,4 +17,4 @@ For my github pages, visit [MobiusDai](https://github.com/MobiusDai)
         ...       # Other markdown pages, images and other files.
 
 ## test 
-\(e = mc^2\)
+$e = mc^2$

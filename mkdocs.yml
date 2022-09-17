@@ -1,13 +1,16 @@
 site_name: Jerry's Blog
 site_author: Jerry
-nav:
-    - Home: index.md
+site_description: >-
+  learning, research, relax
+repo_name: Blog
+repo_url: https://github.com/MobiusDai/Blog
+
 theme:
   name: material
   language: zh
   static_templates:
     - 404.html
-  favicon: images/favicon.ico
+  favicon: images/favicon.png
   include_search_page: false
   search_index_only: true
 
@@ -55,6 +58,16 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
-extra_javascript:
-    - 'js/extra.js'
-    - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/MobiusDai/Blog
+  analytics:
+    provider: google
+    property: G-KJB4RXSKZG
+
+nav:
+  - 前言: "index.md"
+  - 数学基础:
+      - "奇异值分解": "数学基础/奇异值分解.md"
