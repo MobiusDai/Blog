@@ -80,3 +80,5 @@ nav:
   - 前言: "index.md"
   - 数学杂记:
       - "奇异值分解": "数学杂记/奇异值分解.md"
+  - 数据分析:
+      - "python-matplotlib": "数据分析/matplotlib-pyplot绘制.md"
