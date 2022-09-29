@@ -159,3 +159,6 @@ plt.show()
 ```
 
 ![output11](../images/数据分析/matplotlib-pyplot/output11.png)
+
+Code Link: [matplotlib_pyplot.ipynb](https://github.com/MobiusDai/Blog/blob/main/code/data_analysis/matplotlib_pyplot.ipynb)
+
