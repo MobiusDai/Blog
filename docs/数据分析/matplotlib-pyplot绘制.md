@@ -20,7 +20,7 @@ plt.legend() # 显示图例
 plt.show()
 ```
 
-<img src="../images/数据分析/matplotlib-pyplot/output1.png" alt="output1"  />
+![output1](../images/数据分析/matplotlib-pyplot/output1.png)
 
 ```python
 # 绘制曲线图
@@ -59,7 +59,7 @@ plt.legend() # 显示图例
 plt.show()
 ```
 
-![output4](/Users/jerry/Blog/docs/images/数据分析/matplotlib-pyplot/output4.png)
+![output4](../images/数据分析/matplotlib-pyplot/output4.png)
 
 ```python
 # 使用字典绘制散点图, 并且设置大小以及颜色
@@ -74,7 +74,7 @@ plt.ylabel('entry b')
 plt.show()
 ```
 
-![output5](/Users/jerry/Blog/docs/images/数据分析/matplotlib-pyplot/output5.png)
+![output5](../images/数据分析/matplotlib-pyplot/output5.png)
 
 ### 3.条形图
 
@@ -90,7 +90,7 @@ plt.legend() # 显示图例
 plt.show()
 ```
 
-![output6](/Users/jerry/Blog/docs/images/数据分析/matplotlib-pyplot/output6.png)
+![output6](../images/数据分析/matplotlib-pyplot/output6.png)
 
 ### 4.饼图
 
@@ -103,7 +103,7 @@ plt.pie(sizes, labels=labels, autopct='%1.1f%%', shadow=True, startangle=90, exp
 plt.show()
 ```
 
-![output7](/Users/jerry/Blog/docs/images/数据分析/matplotlib-pyplot/output7.png)
+![output7](../images/数据分析/matplotlib-pyplot/output7.png)
 
 ### 5.直方图
 
@@ -120,7 +120,7 @@ plt.grid(True)
 plt.show()
 ```
 
-![output8](/Users/jerry/Blog/docs/images/数据分析/matplotlib-pyplot/output8.png)
+![output8](../images/数据分析/matplotlib-pyplot/output8.png)
 
 ### 6. 热图
 
@@ -133,7 +133,7 @@ plt.colorbar(pc)
 plt.show()
 ```
 
-![output9](/Users/jerry/Blog/docs/images/数据分析/matplotlib-pyplot/output9.png)
+![output10](../images/数据分析/matplotlib-pyplot/output10.png)
 
 ### 7.多张子图
 
@@ -158,4 +158,4 @@ plt.pie(sizes, labels=labels, autopct='%1.1f%%', shadow=True, startangle=90)
 plt.show()
 ```
 
-![output10](/Users/jerry/Blog/docs/images/数据分析/matplotlib-pyplot/output10.png)
+![output11](../images/数据分析/matplotlib-pyplot/output11.png)
