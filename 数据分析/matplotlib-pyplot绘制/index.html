@@ -552,7 +552,7 @@ plt.title('plot') # 标题
 plt.legend() # 显示图例
 plt.show()
 </code></pre>
-<p><img src="../images/数据分析/matplotlib-pyplot/output1.png" alt="output1"  /></p>
+<p><img alt="output1" src="../../images/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/matplotlib-pyplot/output1.png" /></p>
 <pre><code class="language-python"># 绘制曲线图
 x = np.linspace(0, 10, 100)
 y = x**2 - 10*x + 1
@@ -581,7 +581,7 @@ plt.title('scatter') # 标题
 plt.legend() # 显示图例
 plt.show()
 </code></pre>
-<p><img alt="output4" src="/Users/jerry/Blog/docs/images/数据分析/matplotlib-pyplot/output4.png" /></p>
+<p><img alt="output4" src="../../images/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/matplotlib-pyplot/output4.png" /></p>
 <pre><code class="language-python"># 使用字典绘制散点图, 并且设置大小以及颜色
 data = {'a': np.arange(50),
         'c': np.random.randint(0, 50, 50),
@@ -593,7 +593,7 @@ plt.xlabel('entry a')
 plt.ylabel('entry b')
 plt.show()
 </code></pre>
-<p><img alt="output5" src="/Users/jerry/Blog/docs/images/数据分析/matplotlib-pyplot/output5.png" /></p>
+<p><img alt="output5" src="../../images/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/matplotlib-pyplot/output5.png" /></p>
 <h3 id="3">3.条形图</h3>
 <pre><code class="language-python">#绘制条形图
 x = ['group_a', 'group_b', 'group_c']
@@ -605,7 +605,7 @@ plt.title('bar') # 标题
 plt.legend() # 显示图例
 plt.show()
 </code></pre>
-<p><img alt="output6" src="/Users/jerry/Blog/docs/images/数据分析/matplotlib-pyplot/output6.png" /></p>
+<p><img alt="output6" src="../../images/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/matplotlib-pyplot/output6.png" /></p>
 <h3 id="4">4.饼图</h3>
 <pre><code class="language-python"># 绘制饼图
 labels = ['Frogs', 'Hogs', 'Dogs', 'Logs']
@@ -614,7 +614,7 @@ explode = (0, 0.1, 0, 0) # 突出显示
 plt.pie(sizes, labels=labels, autopct='%1.1f%%', shadow=True, startangle=90, explode=explode) # autopct:显示百分比, shadow:阴影, startangle:起始角度
 plt.show()
 </code></pre>
-<p><img alt="output7" src="/Users/jerry/Blog/docs/images/数据分析/matplotlib-pyplot/output7.png" /></p>
+<p><img alt="output7" src="../../images/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/matplotlib-pyplot/output7.png" /></p>
 <h3 id="5">5.直方图</h3>
 <pre><code class="language-python"># 绘制直方图
 mu, sigma = 100, 15
@@ -627,7 +627,7 @@ plt.axis([40, 160, 0, 0.03])
 plt.grid(True)
 plt.show()
 </code></pre>
-<p><img alt="output8" src="/Users/jerry/Blog/docs/images/数据分析/matplotlib-pyplot/output8.png" /></p>
+<p><img alt="output8" src="../../images/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/matplotlib-pyplot/output8.png" /></p>
 <h3 id="6">6. 热图</h3>
 <pre><code class="language-python"># 绘制热力图
 X, Y = np.meshgrid(np.linspace(-1, 1, 100), np.linspace(-1, 1, 100))
@@ -636,7 +636,7 @@ pc = plt.pcolormesh(X, Y, Z, cmap='RdBu_r')
 plt.colorbar(pc)
 plt.show()
 </code></pre>
-<p><img alt="output9" src="/Users/jerry/Blog/docs/images/数据分析/matplotlib-pyplot/output9.png" /></p>
+<p><img alt="output10" src="../../images/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/matplotlib-pyplot/output10.png" /></p>
 <h3 id="7">7.多张子图</h3>
 <pre><code class="language-python">#绘制多张子图
 plt.subplot(2, 2, 1) # 2行2列，第1个
@@ -657,7 +657,7 @@ sizes = [30, 45, 25]
 plt.pie(sizes, labels=labels, autopct='%1.1f%%', shadow=True, startangle=90)
 plt.show()
 </code></pre>
-<p><img alt="output10" src="/Users/jerry/Blog/docs/images/数据分析/matplotlib-pyplot/output10.png" /></p>
+<p><img alt="output11" src="../../images/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/matplotlib-pyplot/output11.png" /></p>
 
 
   
